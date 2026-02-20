@@ -25,7 +25,7 @@ class PipeTile extends StatelessWidget {
       builder: (final context, final grid, _) {
         final Pipe pipe = grid[index];
         return GestureDetector(
-          onTap: () => controller.handleTap(index),
+          onTap: () => onPressed(),
           child: TweenAnimationBuilder<double>(
             duration: const Duration(milliseconds: 100),
             tween: Tween(end: pipe.turns * (pi / 2)),

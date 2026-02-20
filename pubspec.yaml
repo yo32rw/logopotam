@@ -8,8 +8,11 @@ environment:
 
 dependencies:
   audioplayers: ^6.5.1
+  confetti: ^0.8.0
   flutter:
     sdk: flutter
+  google_fonts: ^8.0.2
+  haptic_feedback: ^0.6.4+3
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +21,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+  - assets/sounds/
